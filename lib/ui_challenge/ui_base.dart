@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:toonflix/ui_challenge/widgets/button.dart';
 
 class UiBaseApp extends StatelessWidget {
   @override
@@ -8,7 +9,7 @@ class UiBaseApp extends StatelessWidget {
           backgroundColor: const Color(0xff181818),
           body: Padding(
             padding: const EdgeInsets.symmetric(
-              horizontal: 40,
+              horizontal: 20,
             ),
             child: Column(
               crossAxisAlignment: CrossAxisAlignment.start,
@@ -17,7 +18,7 @@ class UiBaseApp extends StatelessWidget {
                   height: 80,
                 ),
                 Row(
-                  mainAxisAlignment: MainAxisAlignment.end,
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: [
                     Column(
                       crossAxisAlignment: CrossAxisAlignment.end,
@@ -66,23 +67,15 @@ class UiBaseApp extends StatelessWidget {
                   height: 30,
                 ),
                 Row(
-                  children: [
-                    Container(
-                      decoration: BoxDecoration(
-                        color: Colors.amber,
-                        borderRadius: BorderRadius.circular(45),
-                      ),
-                      child: const Padding(
-                        padding: EdgeInsets.symmetric(
-                          vertical: 20,
-                          horizontal: 50,
-                        ),
-                        child: Text('Transfer',
-                            style: TextStyle(
-                              fontSize: 20,
-                            )),
-                      ),
-                    )
+                  children: const [
+                    Button(
+                        text: 'Transfer',
+                        backgroundColor: Color(0xFFF1B33B),
+                        textColor: Colors.white),
+                    Button(
+                        text: 'Request',
+                        backgroundColor: Color(0xFFF1F2123),
+                        textColor: Colors.white),
                   ],
                 )
               ],
