@@ -1,9 +1,10 @@
-import 'package:flutter/cupertino.dart';
-import 'package:toonflix/stateful_widgets/widget_lifecycle.dart';
+import 'package:flutter/material.dart';
+import 'package:toonflix/pomodoro_app/pomodoro_app.dart';
 
 void main() {
   //runApp(UiBaseApp()); //ui_challenge
   //runApp(StateApp()); //stateful_widgets
   //runApp(BuildContextApp()); //stateful_widgets - build_context_app
-  runApp(WidgetLifecycleApp());
+  //runApp(WidgetLifecycleApp()); //stateful_widgets - build_context_app
+  runApp(PomodoroApp());
 }
