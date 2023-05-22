@@ -1,6 +1,9 @@
-import 'package:flutter/material.dart';
-import 'package:toonflix/ui_challenge/ui_base.dart';
+import 'package:flutter/cupertino.dart';
+import 'package:toonflix/stateful_widgets/widget_lifecycle.dart';
 
 void main() {
-  runApp(UiBaseApp());
+  //runApp(UiBaseApp()); //ui_challenge
+  //runApp(StateApp()); //stateful_widgets
+  //runApp(BuildContextApp()); //stateful_widgets - build_context_app
+  runApp(WidgetLifecycleApp());
 }
