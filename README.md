@@ -24,4 +24,12 @@
 
 
 
-+ Mac OS - [ISSUE](https://github.com/flutter/flutter/issues/124835)
+### Issue
++ running with Web(Chrome)
+  + IOS, Android와 달리 웹에서는 썸네일 이미지를 불러오지 못함.
+  + [참고](https://github.com/nomadcoders/toonflix/issues/2)하여 임시로 해결.
+
+
++ running with Mac OS
+  + Xcode 빌드 오류로 실행되지 않음.
+  + [issue](https://github.com/flutter/flutter/issues/124835) 참고하였으나 해결하지 못함.
