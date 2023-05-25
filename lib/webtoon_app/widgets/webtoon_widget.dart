@@ -37,7 +37,9 @@ class Webtoon extends StatelessWidget {
                   ]),
               child: Image.network(
                 thumb,
-                headers: const {'Referer': 'https://comic.naver.com'},
+                headers: const {
+                  'Referer': 'https://comic.naver.com',
+                },
               ),
             ),
           ),

@@ -105,7 +105,6 @@ class _DetailScreenState extends State<DetailScreen> {
                           ]),
                       child: Image.network(
                         widget.thumb,
-                        headers: const {'Referer': 'https://comic.naver.com'},
                       ),
                     ),
                   ),
